@@ -1,0 +1,17 @@
+{
+    "advertise_addr" : "10.0.2.15",
+    "advertise_addr_wan" : "10.0.2.15",
+    "bind_addr" : "10.0.2.15",
+    "client_addr" : "10.0.2.15",
+    "datacenter": "us-west-2",
+    "data_dir": "/data",
+    "enable_syslog": false,
+    "log_level": "INFO",
+    "node_name": "test-agent",
+    "rejoin_after_leave": true,
+    "server": false,
+    "session_ttl_min": "10s",
+    "start_join": [ "10.0.2.15" ],
+    "ui": true
+}
+
