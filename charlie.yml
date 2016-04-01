@@ -1,0 +1,15 @@
+consul-server-data:
+  image: busybox
+  container_name: consul-server-data
+  volumes:
+      - /data
+
+consul-server:
+    image: kurron/docker-consul:0.6.4
+    restart: always
+    net: "host"
+    volumes_from:
+        - consul-server-data
+    volumes:
+        - .:/configuration
+    command: agent --config-file /configuration/charlie.json
