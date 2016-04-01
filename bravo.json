@@ -1,0 +1,16 @@
+{
+    "advertise_addr" : "10.0.0.200",
+    "advertise_addr_wan" : "10.0.0.200",
+    "bind_addr" : "10.0.0.200",
+    "client_addr" : "10.0.0.200",
+    "datacenter": "us-west-2",
+    "data_dir": "/data",
+    "enable_syslog": false,
+    "log_level": "INFO",
+    "node_name": "Consul Bravo",
+    "rejoin_after_leave": true,
+    "server": true,
+    "session_ttl_min": "10s",
+    "ui": true
+}
+
