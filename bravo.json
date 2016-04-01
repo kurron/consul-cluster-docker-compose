@@ -8,6 +8,7 @@
     "enable_syslog": false,
     "log_level": "INFO",
     "node_name": "Consul Bravo",
+    "retry_join" : [ "10.0.2.200", "10.0.4.200"],
     "rejoin_after_leave": true,
     "server": true,
     "session_ttl_min": "10s",
