@@ -1,6 +1,6 @@
 {
     "advertise_addr" : "10.0.2.200",
-    "advertise_addr_wan" : "10.0.2.200",
+    "advertise_addr_wan" : "54.186.179.52",
     "bind_addr" : "10.0.2.200",
     "bootstrap_expect" : 3,
     "client_addr" : "10.0.2.200",

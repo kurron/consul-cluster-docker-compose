@@ -1,6 +1,6 @@
 {
     "advertise_addr" : "10.0.4.200",
-    "advertise_addr_wan" : "10.0.4.200",
+    "advertise_addr_wan" : "54.187.136.98",
     "bind_addr" : "10.0.4.200",
     "client_addr" : "10.0.4.200",
     "datacenter": "us-west-2",
