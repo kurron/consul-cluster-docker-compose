@@ -6,9 +6,10 @@ consul-server-data:
 
 consul-server:
     image: kurron/docker-consul:0.6.4
+    restart: always
     net: "host"
     volumes_from:
         - consul-server-data
     volumes:
         - .:/configuration
-    command: agent --config-file /configuration/server.json
+    command: agent --config-file /configuration/alpha.json
