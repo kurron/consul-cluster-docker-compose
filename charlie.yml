@@ -6,6 +6,7 @@ consul-server-data:
 
 consul-server:
     image: kurron/docker-consul:0.6.4
+    container_name: consul-server
     restart: always
     net: "host"
     volumes_from:
